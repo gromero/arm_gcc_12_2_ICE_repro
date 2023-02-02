@@ -1,0 +1,2 @@
+/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -Os -mcpu=cortex-m55 -mfloat-abi=hard         -c z.c -o z.o
+/home/gromero/bin/arm-none-eabi-gcc -I./include -Os -mcpu=cortex-m55 -mfloat-abi=hard         -c z.c -o z.o
